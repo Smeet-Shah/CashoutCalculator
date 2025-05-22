@@ -21,7 +21,7 @@ import Brightness7Icon from '@mui/icons-material/Brightness7';
 import CalculateIcon from '@mui/icons-material/Calculate';
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://cashoutcalculator-backend.onrender.com/api/v1';
 
 function App() {
   const [results, setResults] = useState(null);
